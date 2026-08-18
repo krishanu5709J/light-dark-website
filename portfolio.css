@@ -8,7 +8,7 @@ body.dark-mode {
     --card-border: #00719072;
     --nav-hover: #21262d;
     --accent-color: #00f2ff;
-    --theme-image: url('moon.jpg');
+    --theme-image: url('D:/Program/image/moon.jpg');
 }
 
 body.light-mode {
@@ -21,7 +21,7 @@ body.light-mode {
     --card-border: #e1e4e8;
     --nav-hover: #f1f8ff;
     --accent-color: #0366d6;
-    --theme-image: url('sun.jpg');
+    --theme-image: url('D:/Program/image/sun.jpg');
 }
 
 * {
@@ -363,7 +363,7 @@ footer {
         height: 70px;
         flex-direction: row;
         align-items: center;
-        padding: 0 15px;
+        padding: 0 20px;
         border-right: none;
         border-bottom: 1px solid var(--border-color);
     }
@@ -371,38 +371,27 @@ footer {
         flex-direction: row;
         align-items: center;
         width: 100%;
-        gap: 10px;
-    }
-    .sidebar-profile {
-        flex-direction: row !important;
-        align-items: center !important;
-        gap: 10px;
+        gap: 15px;
     }
     .profile-frame {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         margin-bottom: 0;
         border-width: 2px;
-    }
-    .sidebar-profile h2 {
-        font-size: 1.1rem;
-        margin-bottom: 0;
     }
     .sidebar-profile p {
         display: none;
     }
     .theme-btn {
-        width: 35px;
-        height: 35px;
-        position: static;
+        position: relative;
         margin-left: auto;
+        margin-right: 15px;
     }
     .hamburger {
         display: block;
         font-size: 1.4rem;
         color: var(--heading-color);
         cursor: pointer;
-        margin-left: 10px;
     }
     .sidebar nav ul {
         display: none;
