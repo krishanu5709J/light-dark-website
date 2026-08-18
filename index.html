@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Krishanu - BCA Student & Developer</title>
     <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body class="dark-mode">
 
     <div class="laptop-layout">
-        
-        <!-- SIDEBAR -->
+
+        <!-- SIDEBAR / MOBILE HEADER -->
         <aside class="sidebar">
             <div class="sidebar-top">
                 <div class="sidebar-profile">
-                    <!-- Interactive Photo Frame -->
                     <div class="profile-frame">
-                        <img src="profile.jpg">
+                        <img src="profile.jpg" alt="Krishanu Profile Photo">
                     </div>
-                    <center><h1>Krishanu</h1></center>
+                    <h1>Krishanu</h1>
                     <p>BCA Student & Developer</p>
                 </div>
-                <!-- Theme Toggle Button (Images managed via CSS variables) -->
-                <button id="theme-toggle" class="theme-btn" title="Toggle Theme"></button>
-            </div>
-            
-            <div class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
             </div>
 
             <nav>
                 <ul id="nav-links">
-                    <li><a href="#hero" class="nav-link active">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#hero" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
                 </ul>
             </nav>
         </aside>
 
         <!-- MAIN CONTENT AREA -->
         <main class="main-content">
-            
+
             <!-- Hero Section -->
             <section id="hero" class="section">
                 <div class="hero-content">
