@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio | Krishanu - BCA Student & Developer</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="/CSS/portfolio.css">
+</head>
+<body class="dark-mode">
+
+    <div class="laptop-layout">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <div class="sidebar-profile">
+                    <!-- Interactive Photo Frame -->
+                    <div class="profile-frame">
+                        <img src="\image\profile.jpg" alt="Krishanu Profile Photo">
+                    </div>
+                    <center><h1>Krishanu</h1></center>
+                    <p>BCA Student & Developer</p>
+                </div>
+                <!-- Theme Toggle Button (Images managed via CSS variables) -->
+                <button id="theme-toggle" class="theme-btn" title="Toggle Theme"></button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content">
+            
+            <!-- Hero Section -->
+            <section id="hero" class="section">
+                <div class="hero-content">
+                    <h3>Hello, World! 👋</h3>
+                    <h1>I'm a <span class="highlight">Tech Enthusiast</span></h1>
+                    <p>I build clean, responsive web applications and love exploring Linux, systems, and programming concepts.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-card">
+                    <p>I am a passionate Bachelor of Computer Applications (BCA) student focused on software development, data structures, and building efficient solutions.</p>
+                    <div class="personal-info">
+                        <p><strong>Degree:</strong> BCA</p>
+                        <p><strong>Interests:</strong> Web Dev, Linux, Open Source</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i> HTML / CSS</div>
+                    <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-card"><i class="fab fa-linux"></i> Linux / Termux</div>
+                    <div class="skill-card"><i class="fas fa-code"></i> C / C++ / Java</div>
+                    <div class="skill-card"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+                    <div class="skill-card"><i class="fas fa-database"></i> Databases</div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project One</h3>
+                        <p>A responsive web application built using HTML, CSS, and modern JavaScript.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>A utility tool or script designed to automate workflows and manage tasks.</p>
+                        <div class="tech-stack">
+                            <span>Python</span><span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <form id="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea rows="4" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2026 Krishanu. All rights reserved.</p>
+            </footer>
+
+        </main>
+    </div>
+    <script src="/JavaScript/portfolio.js"></script>
+</body>
+</html>
